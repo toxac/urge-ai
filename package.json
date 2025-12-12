@@ -9,6 +9,14 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.15.2"
+    "@ai-sdk/deepseek": "^1.0.32",
+    "@ai-sdk/solid": "^1.2.13",
+    "@astrojs/solid-js": "^5.1.2",
+    "@astrojs/vercel": "^9.0.2",
+    "@tailwindcss/vite": "^4.1.16",
+    "ai": "^5.0.111",
+    "astro": "^5.15.2",
+    "solid-js": "^1.9.10",
+    "tailwindcss": "^4.1.16"
   }
 }

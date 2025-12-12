@@ -1,5 +1,20 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 
+import solidJs from '@astrojs/solid-js';
+
+import tailwindcss from '@tailwindcss/vite';
+
+import vercel from '@astrojs/vercel';
+
 // https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+  integrations: [solidJs()],
+  output: 'server',
+
+  vite: {
+    plugins: [tailwindcss()]
+  },
+
+  adapter: vercel()
+});
