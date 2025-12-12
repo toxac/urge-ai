@@ -6,15 +6,23 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-	<h1>Testing Deepseek API</h1>
-	<div>
-		Ask Coach
-		<a href="/ask-coach">try</a>
-	</div>
+	<main class="container mx-auto">
+		<h1 class="text-2xl font-bold">Testing Deepseek API</h1>
+		<div class="p-6 flex flex-col justify-between">
+			<div>
+				<h2 class="text-xl font-semibold">Ask Coach</h2>
+				<p>Improve your ask using urge assist asking coach</p>
 
-	<div class="hidden-content">
-		This div is hidden from view but exists in the HTML. Look at all authenticate...
-	</div>
+			</div>
+			
+			
+			<a href="/ask-coach">try it</a>
+		</div>
+
+		<div class="hidden-content">
+			This div is hidden from view but exists in the HTML. Look at all authenticate...
+		</div>
+	</main>
 
 </Layout>
 
